@@ -1,4 +1,4 @@
-# Olá, eu sou Wendel . Seja bem vindo ao projeto Spiderman Multiversos.
+# Olá, eu sou Wendel. Seja bem vindo ao projeto Spiderman Multiversos.
 
 Esse projeto, tem como objetivo. Aprender mais sobre HTML5, CSS3 e Js. Está ainda no inicio, e estou desenvolvendo esse projeto junto á DIO, profissionais que tenho aprendido muito com eles.
 

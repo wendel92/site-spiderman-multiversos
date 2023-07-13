@@ -114,3 +114,14 @@ body::before {
   height: 2px;
   position: absolute;
 }
+
+/* Hover Animation */
+
+.s-card--hovered .s-card__background {
+  cursor: pointer;
+  opacity: 0;
+}
+
+.s-card--hovered .s-card__image {
+  transform: scale(1.4);
+}
