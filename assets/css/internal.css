@@ -5,7 +5,6 @@
 @import url(./components/_link-button.css);
 @import url(./components/_gallery.css);
 
-
 /* tela inteira */
 .s-wrapper {
   display: flex;
@@ -15,7 +14,8 @@
 
 .s-wrapper video {
   position: fixed;
-  width: 100%;
+  width: 20%;
+  height: 15%;
 }
 
 /*coluna esquerda */
@@ -42,18 +42,23 @@
 }
 
 /* Espaço do conteudo */
-.s-main-content__top {
+.s-wrapper .s-main-content__top {
   height: 80vh;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
 }
 /* conteudo da parte inferior da page */
-.s-main-content__bottom {
+.s-wrapper .s-main-content__bottom {
   height: 20vh;
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
+}
+
+.s-wrapper .s-main-content__bottom img {
+  width: 340px;
+  height: 190px;
 }
 
 .s-wrapper .s-main-content .s-logo img {
@@ -63,7 +68,7 @@
 }
 
 .s-wrapper .s-main-content__top .s-description {
-  background-color: rgba(0, 0, 0, 0.7);
+  background-color: rgba(0, 0, 0, 0.8);
   max-width: 50%;
   padding: 20px;
   border-radius: 10px;
@@ -88,17 +93,42 @@
   flex-direction: row;
 }
 
+/* Homem aranha Tobey Maguire */
 .s-spiderman-01-01 {
   background-image: url('../images/spiderman-tobey/movie-01/background.png');
   background-size: cover;
 }
 
 .s-spiderman-01-02 {
-  background-image: url('../images/spiderman-andrew/movie-01/background.png');
+  background-image: url('../images/spiderman-tobey/movie-02/background.png');
   background-size: cover;
 }
 
 .s-spiderman-01-03 {
+  background-image: url('../images/spiderman-tobey/movie-03/background.png');
+  background-size: cover;
+}
+/* Homem aranha Andrew Garfield */
+.s-spiderman-02-01 {
+  background-image: url('../images/spiderman-andrew/movie-01/background.png');
+  background-size: cover;
+}
+
+.s-spiderman-02-02 {
+  background-image: url('../images/spiderman-andrew/movie-02/background-2.jpg');
+  background-size: cover;
+}
+
+.s-spiderman-03-01 {
   background-image: url('../images/spiderman-tom/movie-01/background.png');
+  background-size: cover;
+}
+
+.s-spiderman-03-02 {
+  background-image: url('../images/spiderman-tom/movie-02/background.png');
+  background-size: cover;
+}
+.s-spiderman-03-03 {
+  background-image: url('../images/spiderman-tom/movie-03/background.png');
   background-size: cover;
 }
